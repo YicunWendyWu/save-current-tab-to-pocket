@@ -1,11 +1,1 @@
-# base
-
-## 项目类型
-【请填前端或者后端】
-
-## 项目编译命令
-
-## 项目配置文件
-
-## 如果是前端，使用yarn还是使用npm
-
+# Chrome extension to save current tab to Pocket
