@@ -6,12 +6,8 @@
     "scripts": ["background.js"],
     "persisten": false
   },
-  "icons": { "16": "icon.png",
-             "48": "icon.png",
-             "128": "icon.png" },
-  "permissions": [
-    "tabs"
-  ],
+  "icons": { "16": "icon.png", "48": "icon.png", "128": "icon.png" },
+  "permissions": ["tabs"],
   "browser_action": {
     "default_title": "Save open tabs to Pocket",
     "default_icon": "icon.png"
