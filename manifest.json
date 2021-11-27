@@ -1,0 +1,21 @@
+{
+  "name": "Save This Tab to Pocket",
+  "description": "This extension saves current open tab to Pocket then closes the tab",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persisten": false
+  },
+  "icons": { "16": "icon.png",
+             "48": "icon.png",
+             "128": "icon.png" },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Save open tabs to Pocket",
+    "default_icon": "icon.png"
+  },
+
+  "manifest_version": 2
+}
